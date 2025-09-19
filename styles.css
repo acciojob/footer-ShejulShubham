@@ -1,1 +1,99 @@
 /* your code here */
+footer {
+	background-color: black;
+	color: white;
+}
+
+.content {
+	padding: 20px;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo-details {
+	font-size: 35px;
+}
+
+.media-icons {
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.media-icons > a {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fb {
+	background-color: rgb(51, 142, 228);
+}
+
+.tw {
+	background-color: rgb(42, 138, 228);
+}
+
+.ig {
+	background-color: rgb(241, 88, 114);
+}
+
+.li {
+	background-color: rgb(46, 159, 239);
+}
+
+.yt {
+	background-color: red;
+}
+
+i {
+	color: white;
+}
+
+a {
+	
+	border-radius: 50%;
+	text-decoration: none;
+	color: #c0c3c3;
+}
+
+h3 {
+	border-bottom: 2px solid white;
+	width: 25px;
+}
+
+.link-boxes {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	gap: 20px;
+	padding: 20px;
+}
+
+.box {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.bottom-details {
+	height: 30px;
+	background-color: #455a6f;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.bottom-details p {
+	display: inline;
+	/* width: 50px; */
+}
